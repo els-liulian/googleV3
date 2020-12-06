@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.debug.ui.SELECT_LAUNCH_SHORTCUT_DIALOG">
+		<item key="DIALOG_WIDTH" value="423"/>
+		<item key="DIALOG_HEIGHT" value="538"/>
+		<item key="DIALOG_FONT_NAME" value="1|Yu Gothic UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Yu Gothic UI"/>
+	</section>
+	<section name="org.eclipse.debug.ui.sourcelookup.SourceLookupDialog">
+		<item key="DIALOG_X_ORIGIN" value="534"/>
+		<item key="DIALOG_Y_ORIGIN" value="125"/>
+		<item key="DIALOG_WIDTH" value="875"/>
+		<item key="DIALOG_HEIGHT" value="595"/>
+		<item key="DIALOG_FONT_NAME" value="1|Yu Gothic UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Yu Gothic UI"/>
+	</section>
+	<section name="org.eclipse.jdt.debug.ui.PROJECT_SELECTION_DIALOG_SECTION">
+		<item key="DIALOG_WIDTH" value="494"/>
+		<item key="DIALOG_HEIGHT" value="531"/>
+		<item key="DIALOG_FONT_NAME" value="1|Yu Gothic UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Yu Gothic UI"/>
+	</section>
+</section>

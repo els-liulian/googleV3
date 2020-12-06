@@ -1,0 +1,2 @@
+## properties for settings used in application layer
+spring.main.allow-bean-definition-overriding=true

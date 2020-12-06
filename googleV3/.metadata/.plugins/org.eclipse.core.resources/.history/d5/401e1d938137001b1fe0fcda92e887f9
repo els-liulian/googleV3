@@ -1,0 +1,16 @@
+spring.main.allow-bean-definition-overriding=true
+spring.messages.basename=application-messages  //ファイル名（拡張子不要）
+spring.messages.cache-duration=-1
+spring.messages.encoding=UTF-8
+
+spring.servlet.multipart.max-file-size = 1024MB
+spring.servlet.multipart.max-request-size=1024MB
+
+server.error.whitelabel.enabled=false
+server.error.path=common/error
+
+server.servlet.context-path=/pwrapid
+
+notice.home.cnt=5
+
+LOG_DIR=c:/Pwrapid_log

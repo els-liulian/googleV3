@@ -1,0 +1,10 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaChainProposalCategory\u0000
+content_assist_favorite_static_members=org.hamcrest.MatcherAssert.*;org.hamcrest.CoreMatchers.*;org.junit.matchers.JUnitMatchers.*;org.junit.Assert.*;org.mockito.Matchers.*;org.mockito.Mockito.*;org.assertj.core.api.Assertions.*;org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestBuilders.*;org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.*;org.springframework.security.test.web.servlet.response.SecurityMockMvcResultMatchers.*;org.springframework.security.test.web.servlet.setup.SecurityMockMvcConfigurers.*;org.springframework.restdocs.mockmvc.MockMvcRestDocumentation.*;org.springframework.test.web.client.match.MockRestRequestMatchers.*;org.springframework.test.web.client.response.MockRestResponseCreators.*;org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;org.springframework.test.web.servlet.result.MockMvcResultHandlers.*;org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;org.junit.Assume.*;org.junit.jupiter.api.Assertions.*;org.junit.jupiter.api.Assumptions.*;org.junit.jupiter.api.DynamicContainer.*;org.junit.jupiter.api.DynamicTest.*
+content_assist_number_of_computers=25
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=19
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="jp" xmlns:th="http://www.thymeleaf.org">
+<head th:include="~{layout/template::header(_,~{},~{})}">
+</head>
+<body class="layout-4">
+	<!-- 共通：ページ読み取り処理 -->
+	<div th:replace="~{layout/template::page-loader}"></div>
+	<div id="app">
+		<div class="main-wrapper main-wrapper-1">
+			<div class="navbar-bg"></div>
+			<!-- 共通：ナビゲーションバー -->
+			<nav th:replace="~{layout/template::navbar(loginUser=${loginUser})}"></nav>
+			<!-- 共通：サイトメニュー -->
+			<div th:replace="~{layout/template::side-menu}"></div>
+			<!-- 共通：メイン コンテント -->
+			<div class="main-content">
+				<section class="section">
+					<!-- ページ名 -->
+					<div class="section-header">
+						<h1>HOME</h1>
+					</div>
+					<!-- <div id="message"></div> -->
+					<div class="section-body">
+						<h2 class="section-title">通知</h2>
+					</div>
+					<div class="card-body"  >
+					<div th:each="nt,iterStat : ${homeList}" >
+                                    <div class="alert alert-primary"  th:text="${nt.homeMessage}"  ></div>
+                                    </div>
+                    </div>
+				</section>
+			</div>
+			<!-- 共通：フッター -->
+			<footer th:include="~{layout/template::footer}"></footer>
+		</div>
+	</div>
+</body>
+</html>

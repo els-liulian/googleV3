@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+
+
+
+	<modelVersion>4.0.0</modelVersion>
+
+
+
+
+
+	<groupId>com.coder8.recaptcha</groupId>
+
+
+
+
+
+	<artifactId>recaptcha</artifactId>
+
+
+
+
+
+	<version>1.0.0-SNAPSHOT</version>
+
+
+
+
+
+	<packaging>pom</packaging>
+
+
+
+
+
+	<parent>
+
+
+
+
+
+		<groupId>org.terasoluna.gfw</groupId>
+
+
+
+
+
+		<artifactId>terasoluna-gfw-parent</artifactId>
+
+
+
+
+
+		<version>5.6.0.RELEASE</version>
+
+
+
+
+
+	</parent>
+
+
+
+
+
+	<name>Macchinetta Server Framework (1.x) Web Blank Multi Project</name>
+
+
+
+
+
+	<description>Web Blank Multi Project using Macchinetta Server Framework (1.x)</description>
+
+
+
+
+
+	<url>http://macchinetta.github.io</url>
+
+
+
+
+
+	<inceptionYear>2017</inceptionYear>
+
+
+
+
+
+	<licenses>
+
+
+
+
+
+		<license>
+
+
+
+
+
+			<name>Apache License, Version 2.0</name>
+
+
+
+
+
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+
+
+
+
+
+			<distribution>manual</distribution>
+
+
+
+
+
+		</license>
+
+
+
+
+
+	</licenses>
+
+
+
+
+
+	<organization>
+
+
+
+
+
+		<name>Macchinetta Framework Team</name>
+
+
+
+
+
+		<url>http://macchinetta.github.io</url>
+
+
+
+
+
+	</organization>
+
+
+
+
+
+	<developers>
+
+
+
+
+
+		<developer>
+
+
+
+
+
+			<name>Macchinetta</name>
+
+
+
+
+
+			<organization>Macchinetta</organization>
+
+
+
+
+
+			<organizationUrl>http://macchinetta.github.io</organizationUrl>
+
+
+
+
+
+		</developer>
+
+
+
+
+
+	</developers>
+
+
+
+
+
+	<scm>
+
+
+
+
+
+		<connection>scm:git:git@github.com:Macchinetta/macchinetta-web-multi-blank-thymeleaf.git</connection>
+
+
+
+
+
+		<developerConnection>scm:git:git@github.com:Macchinetta/macchinetta-web-multi-blank-thymeleaf</developerConnection>
+
+
+
+
+
+		<url>git@github.com:Macchinetta/macchinetta-web-multi-blank-thymeleaf</url>
+
+
+
+
+
+	</scm>
+
+
+
+
+
+	<build>
+
+
+
+
+
+		<pluginManagement>
+
+
+
+
+
+			<plugins>
+
+
+
+
+
+				<plugin>
+
+
+
+
+
+					<groupId>org.apache.maven.plugins</groupId>
+
+
+
+
+
+					<artifactId>maven-failsafe-plugin</artifactId>
+
+
+
+
+
+					<version>${maven-failsafe-plugin.version}</version>
+
+
+
+
+
+					<executions>
+
+
+
+
+
+						<execution>
+
+
+
+
+
+							<goals>
+
+
+
+
+
+								<goal>integration-test</goal>
+
+
+
+
+
+							</goals>
+
+
+
+
+
+						</execution>
+
+
+
+
+
+					</executions>
+
+
+
+
+
+				</plugin>
+
+
+
+
+
+				<plugin>
+
+
+
+
+
+					<groupId>org.apache.maven.plugins</groupId>
+
+
+
+
+
+					<artifactId>maven-surefire-plugin</artifactId>
+
+
+
+
+
+					<version>${maven-surefire-plugin.version}</version>
+
+
+
+
+
+				</plugin>
+
+
+
+
+
+				<plugin>
+
+
+
+
+
+					<groupId>org.codehaus.mojo</groupId>
+
+
+
+
+
+					<artifactId>build-helper-maven-plugin</artifactId>
+
+
+
+
+
+					<version>${org.codehaus.mojo.build-helper-maven-plugin.version}</version>
+
+
+
+
+
+					<executions>
+
+
+
+
+
+						<execution>
+
+
+
+
+
+							<id>add-source</id>
+
+
+
+
+
+							<phase>generate-sources</phase>
+
+
+
+
+
+							<goals>
+
+
+
+
+
+								<goal>add-source</goal>
+
+
+
+
+
+							</goals>
+
+
+
+
+
+							<configuration>
+
+
+
+
+
+								<sources>
+
+
+
+
+
+									<source>src/generated/java</source>
+
+
+
+
+
+								</sources>
+
+
+
+
+
+							</configuration>
+
+
+
+
+
+						</execution>
+
+
+
+
+
+						<execution>
+
+
+
+
+
+							<id>add-resource</id>
+
+
+
+
+
+							<phase>generate-resources</phase>
+
+
+
+
+
+							<goals>
+
+
+
+
+
+								<goal>add-resource</goal>
+
+
+
+
+
+							</goals>
+
+
+
+
+
+							<configuration>
+
+
+
+
+
+								<resources>
+
+
+
+
+
+									<resource>
+
+
+
+
+
+										<directory>src/generated/resources</directory>
+
+
+
+
+
+									</resource>
+
+
+
+
+
+								</resources>
+
+
+
+
+
+							</configuration>
+
+
+
+
+
+						</execution>
+
+
+
+
+
+					</executions>
+
+
+
+
+
+				</plugin>
+
+
+
+
+
+				<plugin>
+
+
+
+
+
+					<groupId>org.apache.maven.plugins</groupId>
+
+
+
+
+
+					<artifactId>maven-war-plugin</artifactId>
+
+
+
+
+
+					<version>${maven-war-plugin.version}</version>
+
+
+
+
+
+					<configuration>
+
+
+
+
+
+						<warName>${project.artifactId}</warName>
+
+
+
+
+
+						<archive>
+
+
+
+
+
+							<addMavenDescriptor>false</addMavenDescriptor>
+
+
+
+
+
+							<manifest>
+
+
+
+
+
+								<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+
+
+
+
+
+							</manifest>
+
+
+
+
+
+						</archive>
+
+
+
+
+
+					</configuration>
+
+
+
+
+
+				</plugin>
+
+
+
+
+
+			</plugins>
+
+
+
+
+
+		</pluginManagement>
+
+
+
+
+
+	</build>
+
+
+
+
+
+	<dependencyManagement>
+
+
+
+
+
+		<dependencies>
+
+
+
+
+
+			<dependency>
+
+
+
+
+
+				<groupId>${project.groupId}</groupId>
+
+
+
+
+
+				<artifactId>recaptcha-domain</artifactId>
+
+
+
+
+
+				<version>1.0.0-SNAPSHOT</version>
+
+
+
+
+
+			</dependency>
+
+
+
+
+
+			<dependency>
+
+
+
+
+
+				<groupId>${project.groupId}</groupId>
+
+
+
+
+
+				<artifactId>recaptcha-web</artifactId>
+
+
+
+
+
+				<version>1.0.0-SNAPSHOT</version>
+
+
+
+
+
+			</dependency>
+
+
+
+
+
+			<dependency>
+
+
+
+
+
+				<groupId>${project.groupId}</groupId>
+
+
+
+
+
+				<artifactId>recaptcha-env</artifactId>
+
+
+
+
+
+				<version>1.0.0-SNAPSHOT</version>
+
+
+
+
+
+			</dependency>
+
+
+
+
+
+			<!-- == Begin TERASOLUNA == -->
+
+
+
+
+
+			<dependency>
+
+
+
+
+
+				<groupId>org.terasoluna.gfw</groupId>
+
+
+
+
+
+				<artifactId>terasoluna-gfw-jodatime-dependencies</artifactId>
+
+
+
+
+
+				<version>${terasoluna.gfw.version}</version>
+
+
+
+
+
+				<type>pom</type>
+
+
+
+
+
+				<exclusions>
+
+
+
+
+
+					<exclusion>
+
+
+
+
+
+						<groupId>joda-time</groupId>
+
+
+
+
+
+						<artifactId>joda-time-jsptags</artifactId>
+
+
+
+
+
+					</exclusion>
+
+
+
+
+
+				</exclusions>
+
+
+
+
+
+			</dependency>
+
+
+
+
+
+			<dependency>
+
+
+
+
+
+				<groupId>org.terasoluna.gfw</groupId>
+
+
+
+
+
+				<artifactId>terasoluna-gfw-security-web-dependencies</artifactId>
+
+
+
+
+
+				<version>${terasoluna.gfw.version}</version>
+
+
+
+
+
+				<type>pom</type>
+
+
+
+
+
+				<exclusions>
+
+
+
+
+
+					<exclusion>
+
+
+
+
+
+						<groupId>org.springframework.security</groupId>
+
+
+
+
+
+						<artifactId>spring-security-taglibs</artifactId>
+
+
+
+
+
+					</exclusion>
+
+
+
+
+
+				</exclusions>
+
+
+
+
+
+			</dependency>
+
+
+
+
+
+			<dependency>
+
+
+
+
+
+				<groupId>org.terasoluna.gfw</groupId>
+
+
+
+
+
+				<artifactId>terasoluna-gfw-recommended-web-dependencies</artifactId>
+
+
+
+
+
+				<version>${terasoluna.gfw.version}</version>
+
+
+
+
+
+				<type>pom</type>
+
+
+
+
+
+				<exclusions>
+
+
+
+
+
+					<exclusion>
+
+
+
+
+
+						<groupId>org.apache.tiles</groupId>
+
+
+
+
+
+						<artifactId>tiles-core</artifactId>
+
+
+
+
+
+					</exclusion>
+
+
+
+
+
+					<exclusion>
+
+
+
+
+
+						<groupId>org.apache.tiles</groupId>
+
+
+
+
+
+						<artifactId>tiles-jsp</artifactId>
+
+
+
+
+
+					</exclusion>
+
+
+
+
+
+				</exclusions>
+
+
+
+
+
+			</dependency>
+
+
+
+
+
+			<!-- == End TERASOLUNA == -->
+
+
+
+
+			<!-- == Begin Database == -->
+
+
+
+
+
+			<!-- <dependency> -->
+
+
+
+
+
+			<!-- <groupId>org.postgresql</groupId> -->
+
+
+
+
+
+			<!-- <artifactId>postgresql</artifactId> -->
+
+
+
+
+
+			<!-- <version>${postgresql.version}</version> -->
+
+
+
+
+
+			<!-- </dependency> -->
+
+
+
+
+
+			<!-- <dependency> -->
+
+
+
+
+
+			<!-- <groupId>com.oracle.ojdbc</groupId> -->
+
+
+
+
+
+			<!-- <artifactId>ojdbc8</artifactId> -->
+
+
+
+
+
+			<!-- <version>${ojdbc.version}</version> -->
+
+
+
+
+
+			<!-- </dependency> -->
+
+
+
+
+
+			<!-- == End Database == -->
+
+
+
+
+
+			<!-- == Begin Unit Test == -->
+
+
+
+
+
+			<!-- <dependency> -->
+
+
+
+
+
+			<!-- <groupId>org.dbunit</groupId> -->
+
+
+
+
+
+			<!-- <artifactId>dbunit</artifactId> -->
+
+
+
+
+
+			<!-- <version>${dbunit.version}</version> -->
+
+
+
+
+
+			<!-- <scope>test</scope> -->
+
+
+
+
+
+			<!-- </dependency> -->
+
+
+
+
+
+			<!-- <dependency> -->
+
+
+
+
+
+			<!-- <groupId>com.github.springtestdbunit</groupId> -->
+
+
+
+
+
+			<!-- <artifactId>spring-test-dbunit</artifactId> -->
+
+
+
+
+
+			<!-- <version>${spring.test.dbunit.version}</version> -->
+
+
+
+
+
+			<!-- <scope>test</scope> -->
+
+
+
+
+
+			<!-- </dependency> -->
+
+
+
+
+
+			<!-- == End Unit Test == -->
+
+
+
+
+
+		</dependencies>
+
+
+
+
+
+	</dependencyManagement>
+
+
+
+
+
+	<properties>
+
+
+
+
+
+		<!-- == Maven Plugin Versions == -->
+
+
+
+
+
+		<maven-war-plugin.version>2.5</maven-war-plugin.version>
+
+
+
+
+
+		<org.codehaus.mojo.build-helper-maven-plugin.version>1.9.1</org.codehaus.mojo.build-helper-maven-plugin.version>
+
+
+
+
+
+		<maven-failsafe-plugin.version>2.19</maven-failsafe-plugin.version>
+
+
+
+
+
+		<maven-surefire-plugin.version>2.17</maven-surefire-plugin.version>
+
+
+
+
+
+		<!-- == Dependency Versions == -->
+
+
+
+
+
+		<postgresql.version>42.2.9</postgresql.version>
+
+
+
+
+
+		<ojdbc.version>19.3.0.0</ojdbc.version>
+
+
+
+
+
+		<dbunit.version>2.5.4</dbunit.version>
+
+
+
+
+
+		<spring.test.dbunit.version>1.3.0</spring.test.dbunit.version>
+
+
+
+
+
+		<!-- == Project Properties == -->
+
+
+
+
+
+		<encoding>UTF-8</encoding>
+
+
+
+
+
+		<java-version>1.8</java-version>
+
+
+
+
+
+	</properties>
+
+
+
+
+
+	<modules>
+
+
+
+
+
+		<module>recaptcha-env</module>
+
+
+
+
+
+		<module>recaptcha-domain</module>
+
+
+
+
+		<module>recaptcha-web</module>
+
+
+
+		<module>recaptcha-initdb</module>
+
+
+		<module>recaptcha-selenium</module>
+
+	</modules>
+
+
+
+
+</project>

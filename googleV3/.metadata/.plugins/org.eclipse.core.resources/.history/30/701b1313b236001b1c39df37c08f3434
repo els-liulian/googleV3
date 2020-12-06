@@ -1,0 +1,10 @@
+/*
+ * Copyright (c) 2020 eLife System Co., Ltd. All Rights Reserved.
+ */
+
+package jp.co.elifes.pwrapid.domain.service.login;
+
+public interface RecaptchaV3Service {
+
+    public RecaptchaV3Output doRecaptchaV3Output(RecaptchaV3Input input);
+}

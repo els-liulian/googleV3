@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="jp" xmlns:th="http://www.thymeleaf.org">
+<head th:include="~{layout/template::header(_,~{},~{})}">
+</head>
+<body class="layout-4">
+	<!-- 共通：ページ読み取り処理 -->
+	<div id="app">
+		<div class="main-wrapper main-wrapper-1">
+			<div class="navbar-bg"></div>
+			<!-- 共通：メイン コンテント -->
+			<div class="main-content">
+				WELCOM
+			</div>
+			<!-- 共通：フッター -->
+			<footer th:include="~{layout/template::footer}"></footer>
+		</div>
+	</div>
+</body>
+</html>

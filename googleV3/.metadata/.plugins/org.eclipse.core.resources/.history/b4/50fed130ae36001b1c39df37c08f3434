@@ -1,0 +1,23 @@
+/*
+ * Copyright (c) 2020 eLife System Co., Ltd. All Rights Reserved.
+ */
+
+package jp.co.elifes.pwrapid.domain.service.login;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class RecaptchaV3Input {
+
+    private String email;
+
+    private String password;
+
+    private String recaptchaResponse;
+
+    private String recaptchaSiteKey;
+
+    private String recaptchav3Js;
+}

@@ -1,0 +1,121 @@
+package com.coder8.recaptcha.app.login;
+
+import java.net.URI;
+import java.nio.charset.Charset;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+import javax.inject.Inject;
+import javax.servlet.http.HttpServletRequest;
+import org.joda.time.LocalDateTime;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.MessageSource;
+import org.springframework.http.MediaType;
+import org.springframework.http.RequestEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.client.RestTemplate;
+
+import com.coder8.recaptcha.domain.service.login.RecaptchaV3Input;
+import com.coder8.recaptcha.domain.service.login.RecaptchaV3Output;
+import com.coder8.recaptcha.domain.service.login.RecaptchaV3Service;
+import com.github.dozermapper.core.Mapper;
+
+
+/**
+ * Handles requests for the application home page.
+ */
+@Controller
+@RequestMapping("/login")
+public class LoginController {
+
+    @Inject
+    Mapper beanMapper;
+
+    @Inject
+    private RecaptchaV3Service recaptchaV3Service;
+
+    @Value("${google.api.recaptchav3.param.render}")
+    private String recaptchaSiteKey;
+
+    @Value("${google.api.recaptchav3.js}")
+    private String recaptchav3Js;
+
+    @Autowired
+    MessageSource messageSource;
+
+    @Value("${google.api.recaptchav3.url}")
+    private String recaptchav3Url;
+
+    @Value("${google.api.recaptchav3.param.secret}")
+    private String secret;
+
+    @Value("${google.api.recaptchav3.result.threshold}")
+    private float threshold;
+
+    @Value("${google.api.recaptchav3.error.locktime}")
+    private int locktime;
+
+    /**
+     * 初期表示.
+     * @param model ロケール情報.
+     * @return
+     */
+    @RequestMapping(value = {"", "/"}, method = RequestMethod.GET)
+    public String init(Model model) {
+        LoginForm loginForm = new LoginForm();
+        String apiJs = recaptchav3Js + "?render=" + recaptchaSiteKey;
+        loginForm.setRecaptchaSiteKey(recaptchaSiteKey);
+        loginForm.setRecaptchav3Js(apiJs);
+        model.addAttribute("loginForm", loginForm);
+        model.addAttribute("recaptchaSiteKey", recaptchaSiteKey);
+        return "login/login";
+    }
+
+    /**
+     * ロボットをチェック.
+     *
+     * @param request request
+     * @param req req
+     * @param model model
+     * @return
+     */
+    @RequestMapping(value = "/validate", method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String, Object> login(HttpServletRequest request, @RequestBody LoginForm req,
+            Model model) {
+        RecaptchaV3Input input = new RecaptchaV3Input();
+        input.setRecaptchaResponse(req.getRecaptchaResponse());
+        RecaptchaV3Output output = doRecaptchaV3Output(input);
+        Map<String, Object> reslutMap = new HashMap<String, Object>();
+        reslutMap.put("result", output);
+        return reslutMap;
+    }
+
+    /**
+     * 登録失敗の場合.
+     *
+     * @param model model
+     * @return
+     */
+    @RequestMapping(value = "/badCredentials", method = RequestMethod.GET)
+    public String badCredentials(Model model) {
+        LoginForm output = new LoginForm();
+        List<String> messages = new ArrayList<String>();
+        output.setResultNo(100);
+        messages.add(
+                messageSource.getMessage(MessageKeys.E_PW_LOGIN_6002.key(), null, Locale.JAPAN));
+        output.setMessages(messages);
+        model.addAttribute("loginForm", output);
+        return "login/login";
+    }
+}

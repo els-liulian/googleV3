@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\pleiades\googleV3\recaptcha"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/recaptcha-env/src/main/resources/META-INF/spring/recaptcha-env.xml&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/recaptcha-domain/src/main/resources/META-INF/spring/recaptcha-domain.xml&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/recaptcha-web/src/main/resources/META-INF/spring/spring-mvc.xml&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<item key="ShowDerived" value="false"/>
+		<item key="FilterByLocation" value="false"/>
+		<item key="WorkingSet" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="671"/>
+			<item key="DIALOG_Y_ORIGIN" value="188"/>
+			<item key="DIALOG_FONT_NAME" value="1|Yu Gothic UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Yu Gothic UI"/>
+		</section>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="DIALOG_WIDTH" value="828"/>
+		<item key="DIALOG_HEIGHT" value="482"/>
+		<item key="DIALOG_FONT_NAME" value="1|Yu Gothic UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Yu Gothic UI"/>
+	</section>
+</section>

@@ -1,0 +1,212 @@
+date:2020-12-05 18:17:54	thread:main	X-Track:	level:WARN 	logger:o.s.c.c.c.ConfigServicePropertySourceLocator    	message:Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+date:2020-12-05 18:17:54	thread:main	X-Track:	level:INFO 	logger:com.coder8.recaptcha.app.RecaptchaApplication   	message:No active profile set, falling back to default profiles: default
+date:2020-12-05 18:17:55	thread:main	X-Track:	level:WARN 	logger:o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext	message:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Failed to register bean definition with name 'requestDataValueProcessor'
+Offending resource: URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]; nested exception is org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'requestDataValueProcessor' defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]: Cannot register bean definition [Generic bean: class [org.terasoluna.gfw.web.mvc.support.CompositeRequestDataValueProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]] for bean 'requestDataValueProcessor': There is already [Root bean: class [org.springframework.security.web.servlet.support.csrf.CsrfRequestDataValueProcessor]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+date:2020-12-05 18:17:55	thread:main	X-Track:	level:ERROR	logger:o.s.b.diagnostics.LoggingFailureAnalysisReporter	message:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'requestDataValueProcessor', defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml], could not be registered. A bean with that name has already been defined and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+date:2020-12-05 18:45:38	thread:main	X-Track:	level:WARN 	logger:o.s.c.c.c.ConfigServicePropertySourceLocator    	message:Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+date:2020-12-05 18:45:38	thread:main	X-Track:	level:INFO 	logger:com.coder8.recaptcha.app.RecaptchaApplication   	message:No active profile set, falling back to default profiles: default
+date:2020-12-05 18:45:39	thread:main	X-Track:	level:WARN 	logger:o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext	message:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Failed to register bean definition with name 'requestDataValueProcessor'
+Offending resource: URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]; nested exception is org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'requestDataValueProcessor' defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]: Cannot register bean definition [Generic bean: class [org.terasoluna.gfw.web.mvc.support.CompositeRequestDataValueProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]] for bean 'requestDataValueProcessor': There is already [Root bean: class [org.springframework.security.web.servlet.support.csrf.CsrfRequestDataValueProcessor]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+date:2020-12-05 18:45:39	thread:main	X-Track:	level:ERROR	logger:o.s.b.diagnostics.LoggingFailureAnalysisReporter	message:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'requestDataValueProcessor', defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml], could not be registered. A bean with that name has already been defined and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+date:2020-12-05 19:54:02	thread:main	X-Track:	level:WARN 	logger:o.s.c.c.c.ConfigServicePropertySourceLocator    	message:Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+date:2020-12-05 19:54:02	thread:main	X-Track:	level:INFO 	logger:com.coder8.recaptcha.app.RecaptchaApplication   	message:No active profile set, falling back to default profiles: default
+date:2020-12-05 19:54:03	thread:main	X-Track:	level:WARN 	logger:o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext	message:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'org.springframework.transaction.config.internalTransactionAdvisor' defined in class path resource [org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration; factoryMethodName=transactionAdvisor; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class]] for bean 'org.springframework.transaction.config.internalTransactionAdvisor': There is already [Root bean: class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+date:2020-12-05 19:54:03	thread:main	X-Track:	level:ERROR	logger:o.s.b.diagnostics.LoggingFailureAnalysisReporter	message:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'org.springframework.transaction.config.internalTransactionAdvisor', defined in class path resource [org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class], could not be registered. A bean with that name has already been defined and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+date:2020-12-05 21:25:53	thread:main	X-Track:	level:WARN 	logger:o.s.c.c.c.ConfigServicePropertySourceLocator    	message:Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+date:2020-12-05 21:25:53	thread:main	X-Track:	level:INFO 	logger:com.coder8.recaptcha.app.RecaptchaApplication   	message:No active profile set, falling back to default profiles: default
+date:2020-12-05 21:25:54	thread:main	X-Track:	level:WARN 	logger:o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext	message:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Failed to register bean definition with name 'requestDataValueProcessor'
+Offending resource: URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]; nested exception is org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'requestDataValueProcessor' defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]: Cannot register bean definition [Generic bean: class [org.terasoluna.gfw.web.mvc.support.CompositeRequestDataValueProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]] for bean 'requestDataValueProcessor': There is already [Root bean: class [org.springframework.security.web.servlet.support.csrf.CsrfRequestDataValueProcessor]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+date:2020-12-05 21:25:54	thread:main	X-Track:	level:ERROR	logger:o.s.b.diagnostics.LoggingFailureAnalysisReporter	message:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'requestDataValueProcessor', defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml], could not be registered. A bean with that name has already been defined and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+date:2020-12-05 21:40:09	thread:main	X-Track:	level:WARN 	logger:o.s.c.c.c.ConfigServicePropertySourceLocator    	message:Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+date:2020-12-05 21:40:09	thread:main	X-Track:	level:INFO 	logger:com.coder8.recaptcha.app.RecaptchaApplication   	message:No active profile set, falling back to default profiles: default
+date:2020-12-05 21:40:10	thread:main	X-Track:	level:WARN 	logger:o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext	message:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'org.springframework.transaction.config.internalTransactionAdvisor' defined in class path resource [org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration; factoryMethodName=transactionAdvisor; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class]] for bean 'org.springframework.transaction.config.internalTransactionAdvisor': There is already [Root bean: class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+date:2020-12-05 21:40:10	thread:main	X-Track:	level:ERROR	logger:o.s.b.diagnostics.LoggingFailureAnalysisReporter	message:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'org.springframework.transaction.config.internalTransactionAdvisor', defined in class path resource [org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class], could not be registered. A bean with that name has already been defined and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+date:2020-12-05 21:49:19	thread:main	X-Track:	level:WARN 	logger:o.s.c.c.c.ConfigServicePropertySourceLocator    	message:Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+date:2020-12-05 21:49:19	thread:main	X-Track:	level:INFO 	logger:com.coder8.recaptcha.app.RecaptchaApplication   	message:No active profile set, falling back to default profiles: default
+date:2020-12-05 21:49:20	thread:main	X-Track:	level:WARN 	logger:o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext	message:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Failed to register bean definition with name 'requestDataValueProcessor'
+Offending resource: URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]; nested exception is org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'requestDataValueProcessor' defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]: Cannot register bean definition [Generic bean: class [org.terasoluna.gfw.web.mvc.support.CompositeRequestDataValueProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]] for bean 'requestDataValueProcessor': There is already [Root bean: class [org.springframework.security.web.servlet.support.csrf.CsrfRequestDataValueProcessor]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+date:2020-12-05 21:49:20	thread:main	X-Track:	level:ERROR	logger:o.s.b.diagnostics.LoggingFailureAnalysisReporter	message:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'requestDataValueProcessor', defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml], could not be registered. A bean with that name has already been defined and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+date:2020-12-05 21:53:29	thread:main	X-Track:	level:WARN 	logger:o.s.c.c.c.ConfigServicePropertySourceLocator    	message:Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+date:2020-12-05 21:53:29	thread:main	X-Track:	level:INFO 	logger:com.coder8.recaptcha.app.RecaptchaApplication   	message:No active profile set, falling back to default profiles: default
+date:2020-12-05 21:53:30	thread:main	X-Track:	level:WARN 	logger:o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext	message:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'org.springframework.transaction.config.internalTransactionAdvisor' defined in class path resource [org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration; factoryMethodName=transactionAdvisor; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class]] for bean 'org.springframework.transaction.config.internalTransactionAdvisor': There is already [Root bean: class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+date:2020-12-05 21:53:30	thread:main	X-Track:	level:ERROR	logger:o.s.b.diagnostics.LoggingFailureAnalysisReporter	message:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'org.springframework.transaction.config.internalTransactionAdvisor', defined in class path resource [org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class], could not be registered. A bean with that name has already been defined and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+date:2020-12-05 21:57:26	thread:main	X-Track:	level:WARN 	logger:o.s.c.c.c.ConfigServicePropertySourceLocator    	message:Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+date:2020-12-05 21:57:26	thread:main	X-Track:	level:INFO 	logger:com.coder8.recaptcha.app.RecaptchaApplication   	message:No active profile set, falling back to default profiles: default
+date:2020-12-05 21:57:27	thread:main	X-Track:	level:WARN 	logger:o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext	message:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Failed to register bean definition with name 'requestDataValueProcessor'
+Offending resource: URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]; nested exception is org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'requestDataValueProcessor' defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]: Cannot register bean definition [Generic bean: class [org.terasoluna.gfw.web.mvc.support.CompositeRequestDataValueProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]] for bean 'requestDataValueProcessor': There is already [Root bean: class [org.springframework.security.web.servlet.support.csrf.CsrfRequestDataValueProcessor]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+date:2020-12-05 21:57:27	thread:main	X-Track:	level:ERROR	logger:o.s.b.diagnostics.LoggingFailureAnalysisReporter	message:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'requestDataValueProcessor', defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml], could not be registered. A bean with that name has already been defined and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+date:2020-12-05 21:58:13	thread:main	X-Track:	level:WARN 	logger:o.s.c.c.c.ConfigServicePropertySourceLocator    	message:Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+date:2020-12-05 21:58:13	thread:main	X-Track:	level:INFO 	logger:com.coder8.recaptcha.app.RecaptchaApplication   	message:No active profile set, falling back to default profiles: default
+date:2020-12-05 21:58:13	thread:main	X-Track:	level:WARN 	logger:o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext	message:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'org.springframework.transaction.config.internalTransactionAdvisor' defined in class path resource [org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration; factoryMethodName=transactionAdvisor; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class]] for bean 'org.springframework.transaction.config.internalTransactionAdvisor': There is already [Root bean: class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+date:2020-12-05 21:58:13	thread:main	X-Track:	level:ERROR	logger:o.s.b.diagnostics.LoggingFailureAnalysisReporter	message:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'org.springframework.transaction.config.internalTransactionAdvisor', defined in class path resource [org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class], could not be registered. A bean with that name has already been defined and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+date:2020-12-05 22:07:20	thread:main	X-Track:	level:WARN 	logger:o.s.c.c.c.ConfigServicePropertySourceLocator    	message:Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+date:2020-12-05 22:07:20	thread:main	X-Track:	level:INFO 	logger:com.coder8.recaptcha.app.RecaptchaApplication   	message:No active profile set, falling back to default profiles: default
+date:2020-12-05 22:07:21	thread:main	X-Track:	level:WARN 	logger:o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext	message:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Failed to register bean definition with name 'requestDataValueProcessor'
+Offending resource: URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]; nested exception is org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'requestDataValueProcessor' defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]: Cannot register bean definition [Generic bean: class [org.terasoluna.gfw.web.mvc.support.CompositeRequestDataValueProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]] for bean 'requestDataValueProcessor': There is already [Root bean: class [org.springframework.security.web.servlet.support.csrf.CsrfRequestDataValueProcessor]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+date:2020-12-05 22:07:21	thread:main	X-Track:	level:ERROR	logger:o.s.b.diagnostics.LoggingFailureAnalysisReporter	message:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'requestDataValueProcessor', defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml], could not be registered. A bean with that name has already been defined and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+date:2020-12-05 22:13:45	thread:main	X-Track:	level:WARN 	logger:o.s.c.c.c.ConfigServicePropertySourceLocator    	message:Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+date:2020-12-05 22:13:45	thread:main	X-Track:	level:INFO 	logger:com.coder8.recaptcha.app.RecaptchaApplication   	message:No active profile set, falling back to default profiles: default
+date:2020-12-05 22:13:46	thread:main	X-Track:	level:WARN 	logger:o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext	message:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Failed to register bean definition with name 'requestDataValueProcessor'
+Offending resource: URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]; nested exception is org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'requestDataValueProcessor' defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]: Cannot register bean definition [Generic bean: class [org.terasoluna.gfw.web.mvc.support.CompositeRequestDataValueProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]] for bean 'requestDataValueProcessor': There is already [Root bean: class [org.springframework.security.web.servlet.support.csrf.CsrfRequestDataValueProcessor]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+date:2020-12-05 22:13:46	thread:main	X-Track:	level:ERROR	logger:o.s.b.diagnostics.LoggingFailureAnalysisReporter	message:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'requestDataValueProcessor', defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml], could not be registered. A bean with that name has already been defined and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+date:2020-12-05 22:27:50	thread:main	X-Track:	level:WARN 	logger:o.s.c.c.c.ConfigServicePropertySourceLocator    	message:Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+date:2020-12-05 22:27:50	thread:main	X-Track:	level:INFO 	logger:com.coder8.recaptcha.app.RecaptchaApplication   	message:No active profile set, falling back to default profiles: default
+date:2020-12-05 22:27:51	thread:main	X-Track:	level:WARN 	logger:o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext	message:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Failed to register bean definition with name 'requestDataValueProcessor'
+Offending resource: URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]; nested exception is org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'requestDataValueProcessor' defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]: Cannot register bean definition [Generic bean: class [org.terasoluna.gfw.web.mvc.support.CompositeRequestDataValueProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml]] for bean 'requestDataValueProcessor': There is already [Root bean: class [org.springframework.security.web.servlet.support.csrf.CsrfRequestDataValueProcessor]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+date:2020-12-05 22:27:51	thread:main	X-Track:	level:ERROR	logger:o.s.b.diagnostics.LoggingFailureAnalysisReporter	message:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'requestDataValueProcessor', defined in URL [file:/C:/pleiades/googleV3/recaptcha/recaptcha-web/target/classes/META-INF/spring/spring-mvc.xml], could not be registered. A bean with that name has already been defined and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+

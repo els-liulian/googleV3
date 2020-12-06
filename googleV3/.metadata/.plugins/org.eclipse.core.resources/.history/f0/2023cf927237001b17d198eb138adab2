@@ -1,0 +1,5 @@
+## properties for settings used in application layer
+spring:
+  main:
+    #\u5f53\u9047\u5230\u540c\u6837\u540d\u5b57\u7684\u65f6\u5019\uff0c\u662f\u5426\u5141\u8bb8\u8986\u76d6\u6ce8\u518c
+    allow-bean-definition-overriding: true

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="jp" xmlns:th="http://www.thymeleaf.org">
+<head th:include="~{layout/template::header(_,~{},~{})}">
+</head>
+<body class="layout-4">
+	<!-- 共通：ページ読み取り処理 -->
+	<div id="app">
+		<div class="main-wrapper main-wrapper-1">
+			<div class="navbar-bg"></div>
+			<!-- 共通：メイン コンテント -->
+			<div class="main-content">
+				WELCOM<br>
+				・码农吧，专注对日IT人才培训，帮助新人融入IT行业，并为其整个职业生涯提供帮助，促进中日IT行业交流与合作，共同发展。官网注册即可免费学习java，vue，ajax，go语言的课程。<br>
+					==================================================<br>
+					・官方网站: https://www.elifesystem.com<br>
+					・微信公众号: 码农吧<br>
+					・微信客服: elife-service<br>
+					・商务合作: coder.8@elifes.co.jp<br>
+					==================================================<br>
+					・学习改变命运，教育联结世界。<br>
+			</div>
+			<!-- 共通：フッター -->
+			<footer th:include="~{layout/template::footer}"></footer>
+		</div>
+	</div>
+</body>
+</html>

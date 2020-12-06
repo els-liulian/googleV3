@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="jp.co.elifes.pwrapid.domain.service.login.RecaptchaV3Service"/>
+    <fullyQualifiedTypeName name="org.springframework.web.client.RestTemplate"/>
+    <fullyQualifiedTypeName name="org.springframework.http.RequestEntity"/>
+    <fullyQualifiedTypeName name="com.google.common.net.MediaType"/>
+    <fullyQualifiedTypeName name="java.net.URI"/>
+    <fullyQualifiedTypeName name="java.nio.charset.Charset"/>
+    <fullyQualifiedTypeName name="jp.co.elifes.pwrapid.domain.service.login.RecaptchaResult"/>
+    <fullyQualifiedTypeName name="org.joda.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="com.coder8.recaptcha.domain.service.login.RecaptchaV3Service"/>
+    <fullyQualifiedTypeName name="com.coder8.recaptcha.domain.service.login.RecaptchaV3Input"/>
+    <fullyQualifiedTypeName name="com.coder8.recaptcha.domain.service.login.RecaptchaV3Output"/>
+</qualifiedTypeNameHistroy>

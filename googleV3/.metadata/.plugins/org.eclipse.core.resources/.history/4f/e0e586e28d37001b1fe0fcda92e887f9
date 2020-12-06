@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="no-js" xmlns:th="http://www.thymeleaf.org"
+xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head th:fragment="header(title,links,scripts)">
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+<meta name="_csrf" th:content="${_csrf.token}"/>
+<meta name="_csrf_header" th:content="${_csrf.headerName}"/>
+<title th:replace="${title}">recaptcha</title>
+<link rel="stylesheet"
+    href="../../../resources/app/css/styles.css" th:href="@{/resources/app/css/styles.css}"
+    media="screen, projection">
+<script type="text/javascript">
+
+</script>
+<th:block th:replace="${links}" />
+<th:block th:replace="${scripts}" />
+</head>
+<body>
+    <div class="container">
+    <!--/*/
+        <div id="header" th:replace="~{layout/header :: header}"></div>
+        <div id="body" th:replace="${body}"></div>
+    /*/-->
+    <!--/*-->
+        <h1>
+            <a href="../welcome/home.html">recaptcha</a>
+        </h1>
+        <div id="wrapper">
+            <h1 id="title">Hello world!</h1>
+            <p>The time on the server is 2018/01/01 00:00:00 JST.</p>
+        </div>
+    <!--*/-->
+        <hr>
+        <footer class="main-footer" th:fragment="footer">
+     	<div>
+			<button onclick="returnTop()" id="btnTop" title="トップに戻る"><img alt="image"
+             th:src="@{/resources/app/assets/img/avatar/top.png}"></button>
+		</div>
+        <div class="simple-footer">
+          <p>&copy; 2020 イーライフシステム株式会社</p>
+        </div>
+      </footer>
+    </div>
+</body>
+</html>
